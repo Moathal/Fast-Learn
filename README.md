@@ -6,9 +6,8 @@
 
 ## Built With
 
-- Major languages
-- Bootstrap
 - HTML, CSS, JS
+- Bootstrap
 
 ## Live Demo (if available)
 
