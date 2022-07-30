@@ -249,14 +249,14 @@ div.about-footer {
   }
 
   .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed
-  > a
-  > .img {
+ > a
+ > .img {
     max-width: 2rem !important;
   }
 
   .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed
-  > a
-  > .img.twitter {
+ > a
+ > .img.twitter {
     max-width: 1.5rem !important;
   }
 
