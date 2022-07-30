@@ -45,7 +45,6 @@ nav.navbar.navbar-expand-md.navbar-dark {
 
 .nav-item > .nav-link.active {
   color: #ec5242 !important;
-  text-underline-position: below;
 }
 
 .container-fluid.my-0 {
@@ -66,7 +65,7 @@ section.container-fluid.d-flex.my-0.row-md-col-1.opening {
 }
 
 h1.h1.fw-bolder.mt-4.m-auto {
-  font-family: "cocogoosedemibold" !important;
+  font-family: "cocogoosedemibold", sans-serif !important;
 }
 
 strong {
@@ -207,6 +206,7 @@ h5.mt-1 > a.h1 {
   align-items: flex-end;
   padding: 0 !important;
 }
+
 .aboutContext {
   background-color: #ec534280 !important;
   height: 100%;
@@ -249,14 +249,14 @@ div.about-footer {
   }
 
   .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed
-    > a
-    > .img {
+  > a
+  > .img {
     max-width: 2rem !important;
   }
 
   .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed
-    > a
-    > .img.twitter {
+  > a
+  > .img.twitter {
     max-width: 1.5rem !important;
   }
 
@@ -269,7 +269,7 @@ div.about-footer {
   }
 
   h1.h1.fw-bolder.mt-4.m-auto {
-    font-family: "cocogoosedemibold" !important;
+    font-family: "cocogoosedemibold", sans-serif !important;
     font-size: 4rem !important;
   }
 
@@ -303,6 +303,7 @@ div.about-footer {
     width: 100%;
     color: #d3d3d3;
   }
+
   .aboutOdin {
     background-size: 110%;
   }
