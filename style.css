@@ -1,0 +1,340 @@
+@font-face {
+  font-family: cocogoose;
+  src:
+    url(fonts/cocogoose.ttf),
+    url(fonts/cocogoose-bold.ttf);
+}
+
+/* Home styling */
+* {
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: lato, sans-serif !important;
+}
+
+.navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed {
+  display: none !important;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-toggler.d-lg-none.collapsed {
+  background-image: url(icons&imgs/hamEnabled.png);
+  background-size: contain;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.navbar-toggler.d-lg-none {
+  background-image: url(icons&imgs/Icon.png);
+  background-size: 40%;
+  height: 3rem;
+  width: 3rem;
+  background-position: center;
+  margin-right: 1rem;
+}
+
+#navLogo {
+  max-height: 3em;
+}
+
+.navbar.navbar-expand-md.navbar-dark {
+  background-color: #272a31;
+}
+
+.nav-item > .nav-link.active {
+  color: #ec5242 !important;
+}
+
+.container-fluid.my-0 {
+  background-color: #d3d3d3;
+  padding: 0;
+}
+
+section.container-fluid.d-flex.my-0.row-md-col-1.opening {
+  background-image: url(icons&imgs/marvin-meyer-SYTO3xs06fU-unsplash.jpg) !important;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  min-width: 100%;
+}
+
+.row-md-col-2.row-sm-col-1.offset-1.window1 {
+  max-width: 80vw;
+}
+
+h1.h1.fw-bolder.mt-4.m-auto {
+  font-family: "cocogoose", sans-serif !important;
+}
+
+strong {
+  color: #ec5242;
+}
+
+.container-fluid.row-md-col-1.p-4.mainProgram {
+  background-image: url(icons&imgs/program-bg.png);
+  background-size: cover;
+  border-color: black !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+}
+
+.h3.p-1.mainProgram-head {
+  color: #d3d3d3;
+}
+
+hr {
+  width: 3rem !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #ec5242 !important;
+  border-radius: 2px !important;
+  opacity: 100 !important;
+}
+
+.col-md-2.card.d-flex.gap-1.p-1.card-mainProgram {
+  height: 11rem;
+  width: 99%;
+  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imgMainPorgram {
+  height: auto;
+  width: 6rem;
+}
+
+.my-3.cardHeading {
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.cardDescript {
+  color: #d3d3d3;
+  text-align: left;
+  max-width: 50%;
+  justify-self: flex-end;
+}
+
+.button.btn-danger.p-3 {
+  display: block;
+}
+
+.link.desktop {
+  display: none;
+}
+
+button.btn-danger.p-3.mx-auto.my-3 {
+  background-color: #ec5242 !important;
+  border-radius: 6px !important;
+}
+
+.moreIcon {
+  width: 1rem;
+}
+
+#seeMore-mobile {
+  display: block;
+  background-color: #d3d3d3;
+}
+
+.row.gap-4.mx-0.mt-4.justify-content-center.text-center.footer {
+  background-color: #272a31;
+  display: none;
+}
+
+img.partner-icon {
+  max-width: 20vw;
+  height: auto;
+}
+
+div.speaker-photo {
+  background-image: url(icons&imgs/CheckerBoard.png);
+  background-size: 4rem;
+  background-position: top left;
+  width: 8rem;
+  height: 8rem;
+}
+
+.speaker-photo-main {
+  width: 7rem;
+  height: 7rem;
+}
+
+.col-md-5.p-2.d-flex.flex-row.justify-content-between.card.text-start {
+  display: flex !important;
+}
+
+.col-md-5.p-2.d-flex.flex-row.justify-content-between.card.text-start.hidden {
+  display: none !important;
+}
+
+div.home-footer {
+  display: none;
+}
+
+/* About styling */
+
+div.img-container {
+  min-height: 75vh;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 8rem !important;
+}
+
+#aboutLogo {
+  width: 30vw !important;
+  height: auto;
+  margin-right: 0;
+}
+
+.aboutEssay {
+  color: #d3d3d3;
+  max-width: 80%;
+}
+
+.aboutCards {
+  background-color: #d3d3d3;
+}
+
+h5.mt-1 > a.h1 {
+  color: #ec5242 !important;
+  text-decoration: none;
+}
+
+.aboutCS50 {
+  background-image: url(icons&imgs/1_RFMU__52xKVjrCa_Qb8oyQ.png);
+  background-size: auto;
+  background-position: center;
+  min-height: 15rem;
+  align-items: flex-end;
+  padding: 0 !important;
+}
+
+.aboutContext {
+  background-color: #ec534280 !important;
+  height: 100%;
+  width: 100%;
+}
+
+.aboutOdin {
+  background-image: url(icons&imgs/maxresdefault.jpg);
+  background-size: cover, 110%;
+  background-position: center;
+  min-height: 15rem;
+  align-items: flex-end;
+  padding: 0 !important;
+}
+
+footer.mobileAbout.footer {
+  display: flex !important;
+}
+
+div.about-footer {
+  background-color: #d3d3d3 !important;
+  color: #272a31;
+  width: 100% !important;
+}
+
+.rights > img.rightsLogo {
+  width: 50% !important;
+}
+
+/* Responsiveness */
+
+@media (min-width: 786px) {
+  .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed {
+    height: 3rem;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex !important;
+  }
+
+  .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed > a > .img {
+    max-width: 2rem !important;
+  }
+
+  .navbar.d-flex.flex-row.justify-content-end.bg-light.position-fixed > a > .img.twitter {
+    max-width: 1.5rem !important;
+  }
+
+  nav.navbar.navbar-expand-md.navbar-dark {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  h1.h1.fw-bolder.mt-4.m-auto {
+    font-family: "cocogoose", sans-serif !important;
+    font-size: 4rem !important;
+  }
+
+  .col-md-2.card.d-flex.gap-1.p-1.card-mainProgram {
+    height: 20rem;
+    width: 15rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cardDescript {
+    text-align: center;
+    max-width: 95%;
+  }
+
+  .button.btn-danger.p-3 {
+    display: none;
+  }
+
+  .link.desktop {
+    display: block;
+  }
+
+  #seeMore-mobile {
+    display: none;
+  }
+
+  .row.gap-4.mx-0.mt-4.justify-content-center.text-center.footer {
+    background-color: #272a31;
+    display: flex;
+    width: 100%;
+    color: #d3d3d3;
+  }
+
+  .aboutOdin {
+    background-size: 110%;
+  }
+
+  footer.mobileAbout.footer {
+    display: none !important;
+  }
+
+  div.home-footer {
+    display: flex;
+  }
+
+  div.about-footer {
+    background-color: #272a31 !important;
+    color: #d3d3d3;
+    width: 100% !important;
+  }
+
+  .rights > img.rightsLogo {
+    max-width: 20% !important;
+    margin: 0 !important;
+  }
+}
