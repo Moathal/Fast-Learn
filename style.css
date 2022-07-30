@@ -80,7 +80,11 @@ strong {
 }
 
 .container-fluid.row-md-col-1.p-4.mainProgram {
-  background-color: #272a31;
+  background-image: url(icons&imgs/program-bg.png);
+  background-size: cover;
+  border-color: black !important;
+  border-style: solid !important;
+  border-width: 2px !important;
 }
 
 .h3.p-1.mainProgram-head {
@@ -99,7 +103,7 @@ hr {
 .col-md-2.card.d-flex.gap-1.p-1.card-mainProgram {
   height: 11rem;
   width: 99%;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
@@ -173,6 +177,10 @@ div.speaker-photo {
 
 .col-md-5.p-2.d-flex.flex-row.justify-content-between.card.text-start.hidden {
   display: none !important;
+}
+
+div.home-footer {
+  display: none;
 }
 
 /* About styling */
@@ -313,6 +321,10 @@ div.about-footer {
 
   footer.mobileAbout.footer {
     display: none !important;
+  }
+
+  div.home-footer {
+    display: flex;
   }
 
   div.about-footer {

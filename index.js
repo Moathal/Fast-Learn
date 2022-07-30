@@ -54,13 +54,11 @@ expandButton.addEventListener('click', () => {
 });
 
 languageCards.forEach((card) => card.addEventListener('mouseover', () => {
-  card.style.borderStyle = 'solid';
   card.style.borderColor = '#d3d3d3';
-  card.style.borderWidth = '1px';
 }));
 
 languageCards.forEach((card) => card.addEventListener('mouseleave', () => {
-  card.style.border = 'none';
+  card.style.borderColor = 'black';
 }));
 
 window.addEventListener('resize', () => {
