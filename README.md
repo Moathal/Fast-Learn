@@ -9,10 +9,12 @@
 - HTML, CSS, JS
 - Bootstrap
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link]https://moathal.github.io/Cap-Stone-1
 
+
+## [Video Explains the Website]https://drive.google.com/file/d/14CNpnWyO7Uova3TtZGZNwX8Vn5tLdkQ7/view?usp=sharing
 
 
 ### Prerequisites
