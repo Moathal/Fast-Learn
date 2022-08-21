@@ -26,7 +26,7 @@ const speakers = [
 ];
 
 for (let i = 0; i < speakers.length; i += 1) {
-  speakersSect.innerHTML += `<div id= ${i} class="col-md-5 p-2 d-flex flex-row justify-content-between card text-start">
+  speakersSect.innerHTML += `<div id= ${i} class="col-md-5 p-1 col-sm-12 d-flex flex-row justify-content-between card text-start gap-2">
     <div class="col-3 d-flex justify-content-end align-items-end speaker-photo">
         <img class="speaker-photo-main" src= ${speakers[i].image} alt=>
     </div>
