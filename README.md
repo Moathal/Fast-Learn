@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Cap-Stone-1
+# FastLearn
 
 > It is a guidance for learning web development even if users have no experience at all. All they need is dedication and time.
 
